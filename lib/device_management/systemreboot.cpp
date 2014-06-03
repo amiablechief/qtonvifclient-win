@@ -1,5 +1,5 @@
 #include "systemreboot.h"
-#include "lib/message.h"
+#include "../../lib/message.h"
 using namespace ONVIF;
 
 SystemReboot::SystemReboot(QObject *parent) : QObject(parent) {

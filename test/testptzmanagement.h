@@ -1,7 +1,7 @@
 #ifndef TESTPTZMANAGEMENT_H
 #define TESTPTZMANAGEMENT_H
 #include <QObject>
-#include "lib/ptzmanagement.h"
+#include "../lib/ptzmanagement.h"
 
 class TestPtzManagement : public QObject {
     Q_OBJECT

@@ -1,5 +1,5 @@
 #include "gotopreset.h"
-#include "lib/message.h"
+#include "../../lib/message.h"
 
 using namespace ONVIF;
 

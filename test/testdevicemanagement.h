@@ -2,7 +2,7 @@
 #define TESTDEVICEMANAGEMENT_H
 
 #include <QObject>
-#include "lib/devicemanagement.h"
+#include "../lib/devicemanagement.h"
 
 class TestDeviceManagement : public QObject {
     Q_OBJECT

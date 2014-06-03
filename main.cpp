@@ -1,12 +1,12 @@
 #include <QCoreApplication>
 #include <QTest>
-#include <test/testmesasge.h>
-#include <lib/devicesearcher.h>
-#include <lib/client.h>
-#include <lib/devicemanagement.h>
-#include <test/testdevicemanagement.h>
-#include <test/testmediamanagement.h>
-#include <test/testptzmanagement.h>
+#include "test/testmesasge.h"
+#include "lib/devicesearcher.h"
+#include "lib/client.h"
+#include "lib/devicemanagement.h"
+#include "test/testdevicemanagement.h"
+#include "test/testmediamanagement.h"
+#include "test/testptzmanagement.h"
 
 using namespace ONVIF;
 

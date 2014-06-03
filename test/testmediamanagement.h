@@ -1,7 +1,7 @@
 #ifndef TESTMEDIAMANAGEMENT_H
 #define TESTMEDIAMANAGEMENT_H
 #include <QObject>
-#include "lib/mediamanagement.h"
+#include "../lib/mediamanagement.h"
 
 class TestMediaManagement : public QObject {
     Q_OBJECT

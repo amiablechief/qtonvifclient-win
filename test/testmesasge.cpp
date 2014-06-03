@@ -1,5 +1,5 @@
 #include "testmesasge.h"
-#include "lib/message.h"
+#include "../lib/message.h"
 #include <QHash>
 #include <QTest>
 #include <QDebug>

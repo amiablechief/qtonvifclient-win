@@ -6,10 +6,10 @@ Capabilities::Capabilities(QObject *parent) : QObject(parent) {
 }
 Capabilities::~Capabilities(){
 }
-QDomElement Capabilities::toxml()
+/*QDomElement Capabilities::toxml()
 {
 
-}
+}*/
 QString Capabilities::enumToString(Category category)
 {
     switch (category) {

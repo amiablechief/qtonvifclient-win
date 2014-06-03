@@ -1,5 +1,5 @@
 #include "mediamanagement.h"
-#include "lib/messageparser.h"
+#include "../lib/messageparser.h"
 #include <QXmlResultItems>
 #include <QDebug>
 using namespace ONVIF;

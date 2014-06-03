@@ -384,9 +384,9 @@ Profiles *MediaManagement::getProfiles()
             query->evaluateTo(&value);
             profiles->m_nodeToken.push_back(value.trimmed());
 
-            query->setQuery(result->nameSpace()+"./tt:PTZConfiguration/tt:DefaultAbsolutePantTiltPositionSpace/string()");
+            query->setQuery(result->nameSpace()+"./tt:PTZConfiguration/tt:DefaultAbsolutePanTiltPositionSpace/string()");
             query->evaluateTo(&value);
-            profiles->m_defaultAbsolutePantTiltPositionSpace.push_back(value.trimmed());
+            profiles->m_defaultAbsolutePanTiltPositionSpace.push_back(value.trimmed());
 
             query->setQuery(result->nameSpace()+"./tt:PTZConfiguration/tt:DefaultAbsoluteZoomPositionSpace/string()");
             query->evaluateTo(&value);
@@ -394,7 +394,7 @@ Profiles *MediaManagement::getProfiles()
 
             query->setQuery(result->nameSpace()+"./tt:PTZConfiguration/tt:DefaultRelativePanTiltTranslationSpace/string()");
             query->evaluateTo(&value);
-            profiles->m_defaultRelativePantTiltTranslationSpace.push_back(value.trimmed());
+            profiles->m_defaultRelativePanTiltTranslationSpace.push_back(value.trimmed());
 
             query->setQuery(result->nameSpace()+"./tt:PTZConfiguration/tt:DefaultRelativeZoomTranslationSpace/string()");
             query->evaluateTo(&value);
@@ -402,7 +402,7 @@ Profiles *MediaManagement::getProfiles()
 
             query->setQuery(result->nameSpace()+"./tt:PTZConfiguration/tt:DefaultContinuousPanTiltVelocitySpace/string()");
             query->evaluateTo(&value);
-            profiles->m_defaultContinuousPantTiltVelocitySpace.push_back(value.trimmed());
+            profiles->m_defaultContinuousPanTiltVelocitySpace.push_back(value.trimmed());
 
             query->setQuery(result->nameSpace()+"./tt:PTZConfiguration/tt:DefaultContinuousZoomVelocitySpace/string()");
             query->evaluateTo(&value);
@@ -684,9 +684,9 @@ Profile *MediaManagement::getProfile720P()
             query->evaluateTo(&value);
             profile->m_nodeToken.push_back(value.trimmed());
 
-            query->setQuery(result->nameSpace()+"./tt:PTZConfiguration/tt:DefaultAbsolutePantTiltPositionSpace/string()");
+            query->setQuery(result->nameSpace()+"./tt:PTZConfiguration/tt:DefaultAbsolutePanTiltPositionSpace/string()");
             query->evaluateTo(&value);
-            profile->m_defaultAbsolutePantTiltPositionSpace.push_back(value.trimmed());
+            profile->m_defaultAbsolutePanTiltPositionSpace.push_back(value.trimmed());
 
             query->setQuery(result->nameSpace()+"./tt:PTZConfiguration/tt:DefaultAbsoluteZoomPositionSpace/string()");
             query->evaluateTo(&value);
@@ -694,7 +694,7 @@ Profile *MediaManagement::getProfile720P()
 
             query->setQuery(result->nameSpace()+"./tt:PTZConfiguration/tt:DefaultRelativePanTiltTranslationSpace/string()");
             query->evaluateTo(&value);
-            profile->m_defaultRelativePantTiltTranslationSpace.push_back(value.trimmed());
+            profile->m_defaultRelativePanTiltTranslationSpace.push_back(value.trimmed());
 
             query->setQuery(result->nameSpace()+"./tt:PTZConfiguration/tt:DefaultRelativeZoomTranslationSpace/string()");
             query->evaluateTo(&value);
@@ -702,7 +702,7 @@ Profile *MediaManagement::getProfile720P()
 
             query->setQuery(result->nameSpace()+"./tt:PTZConfiguration/tt:DefaultContinuousPanTiltVelocitySpace/string()");
             query->evaluateTo(&value);
-            profile->m_defaultContinuousPantTiltVelocitySpace.push_back(value.trimmed());
+            profile->m_defaultContinuousPanTiltVelocitySpace.push_back(value.trimmed());
 
             query->setQuery(result->nameSpace()+"./tt:PTZConfiguration/tt:DefaultContinuousZoomVelocitySpace/string()");
             query->evaluateTo(&value);
@@ -985,9 +985,9 @@ Profile *MediaManagement::getProfileD1()
             query->evaluateTo(&value);
             profile->m_nodeToken.push_back(value.trimmed());
 
-            query->setQuery(result->nameSpace()+"./tt:PTZConfiguration/tt:DefaultAbsolutePantTiltPositionSpace/string()");
+            query->setQuery(result->nameSpace()+"./tt:PTZConfiguration/tt:DefaultAbsolutePanTiltPositionSpace/string()");
             query->evaluateTo(&value);
-            profile->m_defaultAbsolutePantTiltPositionSpace.push_back(value.trimmed());
+            profile->m_defaultAbsolutePanTiltPositionSpace.push_back(value.trimmed());
 
             query->setQuery(result->nameSpace()+"./tt:PTZConfiguration/tt:DefaultAbsoluteZoomPositionSpace/string()");
             query->evaluateTo(&value);
@@ -995,7 +995,7 @@ Profile *MediaManagement::getProfileD1()
 
             query->setQuery(result->nameSpace()+"./tt:PTZConfiguration/tt:DefaultRelativePanTiltTranslationSpace/string()");
             query->evaluateTo(&value);
-            profile->m_defaultRelativePantTiltTranslationSpace.push_back(value.trimmed());
+            profile->m_defaultRelativePanTiltTranslationSpace.push_back(value.trimmed());
 
             query->setQuery(result->nameSpace()+"./tt:PTZConfiguration/tt:DefaultRelativeZoomTranslationSpace/string()");
             query->evaluateTo(&value);
@@ -1003,7 +1003,7 @@ Profile *MediaManagement::getProfileD1()
 
             query->setQuery(result->nameSpace()+"./tt:PTZConfiguration/tt:DefaultContinuousPanTiltVelocitySpace/string()");
             query->evaluateTo(&value);
-            profile->m_defaultContinuousPantTiltVelocitySpace.push_back(value.trimmed());
+            profile->m_defaultContinuousPanTiltVelocitySpace.push_back(value.trimmed());
 
             query->setQuery(result->nameSpace()+"./tt:PTZConfiguration/tt:DefaultContinuousZoomVelocitySpace/string()");
             query->evaluateTo(&value);

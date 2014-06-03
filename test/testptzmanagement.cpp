@@ -27,7 +27,7 @@ void TestPtzManagement::getConfigurations()
     QCOMPARE(configurations->getName()[0],QString("profile_ptz_D1"));
     QCOMPARE(configurations->getUseCount()[0],2);
     QCOMPARE(configurations->getNodeToken()[0],QString("ptz_node_D1"));
-    QCOMPARE(configurations->getDefaultAbsolutePantTiltPositionSpace()[0],QString("http://www.onvif.org/ver10/tptz/PanTiltSpaces/PositionGenericSpace"));
+    QCOMPARE(configurations->getDefaultAbsolutePanTiltPositionSpace()[0],QString("http://www.onvif.org/ver10/tptz/PanTiltSpaces/PositionGenericSpace"));
     QCOMPARE(configurations->getDefaultAbsoluteZoomPositionSpace()[0],QString("http://www.onvif.org/ver10/tptz/ZoomSpaces/PositionGenericSpace"));
     QCOMPARE(configurations->getDefaultRelativePanTiltTranslationSpace()[0],QString("http://www.onvif.org/ver10/tptz/PanTiltSpaces/TranslationGenericSpace"));
     QCOMPARE(configurations->getDefaultRelativeZoomTranslationSpace()[0],QString("http://www.onvif.org/ver10/tptz/ZoomSpaces/TranslationGenericSpace"));
@@ -200,7 +200,7 @@ void TestPtzManagement::getConfiguration()
     QCOMPARE(configuration->name(),QString("profile_ptz_D1"));
     QCOMPARE(configuration->useCount(),2);
     QCOMPARE(configuration->nodeToken(),QString("ptz_node_D1"));
-    QCOMPARE(configuration->defaultAbsolutePantTiltPositionSpace(),QString("http://www.onvif.org/ver10/tptz/PanTiltSpaces/PositionGenericSpace"));
+    QCOMPARE(configuration->defaultAbsolutePanTiltPositionSpace(),QString("http://www.onvif.org/ver10/tptz/PanTiltSpaces/PositionGenericSpace"));
     QCOMPARE(configuration->defaultAbsoluteZoomPositionSpace(),QString("http://www.onvif.org/ver10/tptz/ZoomSpaces/PositionGenericSpace"));
     QCOMPARE(configuration->defaultRelativePanTiltTranslationSpace(),QString("http://www.onvif.org/ver10/tptz/PanTiltSpaces/TranslationGenericSpace"));
 }

@@ -58,7 +58,9 @@ SOURCES += main.cpp \
     lib/ptz_management/gotopreset.cpp \
     lib/ptz_management/gotohomeposition.cpp \
     lib/ptz_management/configuration.cpp \
-    lib/ptz_management/node.cpp
+    lib/ptz_management/node.cpp \
+    lib/qhttp.cpp \
+    lib/qhttpauthenticator.cpp
 
 HEADERS += \
     lib/message.h \
@@ -104,4 +106,7 @@ HEADERS += \
     lib/ptz_management/gotopreset.h \
     lib/ptz_management/gotohomeposition.h \
     lib/ptz_management/configuration.h \
-    lib/ptz_management/node.h
+    lib/ptz_management/node.h \
+    lib/qhttp.h \
+    lib/qhttpauthenticator_p.h \
+    lib/qringbuffer_p.h

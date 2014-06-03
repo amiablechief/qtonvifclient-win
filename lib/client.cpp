@@ -1,5 +1,5 @@
 #include "client.h"
-#include <QHttp>
+#include "qhttp.h"
 #include <QEventLoop>
 #include <QUrl>
 #include <QDebug>

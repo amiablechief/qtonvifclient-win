@@ -2,7 +2,7 @@
 #define ONVIF_CLIENT_H
 
 #include <QObject>
-#include <QHttp>
+#include "qhttp.h"
 
 namespace ONVIF {
     class Client : public QObject {

@@ -45,14 +45,14 @@ namespace ONVIF {
             m_nodeToken.push_back(nodeToken);
         }
 
-        QList<QString> getDefaultAbsolutePantTiltPositionSpace()
+        QList<QString> getDefaultAbsolutePanTiltPositionSpace()
         {
-            return m_defaultAbsolutePantTiltPositionSpace;
+            return m_defaultAbsolutePanTiltPositionSpace;
         }
 
-        void setDefaultAbsolutePantTiltPositionSpace(QString defaultAbsolutePantTiltPositionSpace)
+        void setDefaultAbsolutePanTiltPositionSpace(QString defaultAbsolutePanTiltPositionSpace)
         {
-            m_defaultAbsolutePantTiltPositionSpace.push_back(defaultAbsolutePantTiltPositionSpace);
+            m_defaultAbsolutePanTiltPositionSpace.push_back(defaultAbsolutePanTiltPositionSpace);
         }
 
         QList<QString> getDefaultAbsoluteZoomPositionSpace()
@@ -247,7 +247,7 @@ namespace ONVIF {
         QList<QString> m_name;
         QList<int> m_useCount;
         QList<QString> m_nodeToken;
-        QList<QString> m_defaultAbsolutePantTiltPositionSpace;
+        QList<QString> m_defaultAbsolutePanTiltPositionSpace;
         QList<QString> m_defaultAbsoluteZoomPositionSpace;
         QList<QString> m_defaultRelativePanTiltTranslationSpace;
         QList<QString> m_defaultRelativeZoomTranslationSpace;

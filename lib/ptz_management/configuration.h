@@ -10,7 +10,7 @@ namespace ONVIF {
         Q_PROPERTY(QString name READ name WRITE setName)
         Q_PROPERTY(int useCount READ useCount WRITE setUseCount)
         Q_PROPERTY(QString nodeToken READ nodeToken WRITE setNodeToken)
-        Q_PROPERTY(QString defaultAbsolutePantTiltPositionSpace READ defaultAbsolutePantTiltPositionSpace WRITE setDefaultAbsolutePanTiltPositionSpace)
+        Q_PROPERTY(QString defaultAbsolutePanTiltPositionSpace READ defaultAbsolutePanTiltPositionSpace WRITE setDefaultAbsolutePanTiltPositionSpace)
         Q_PROPERTY(QString defaultAbsoluteZoomPositionSpace READ defaultAbsoluteZoomPositionSpace WRITE setDefaultAbsoluteZoomPositionSpace)
         Q_PROPERTY(QString defaultRelativePanTiltTranslationSpace READ defaultRelativePanTiltTranslationSpace WRITE setDefaultRelativePanTiltTranslationSpace)
         Q_PROPERTY(QString defaultRelativeZoomTranslationSpace READ defaultRelativeZoomTranslationSpace WRITE setDefaultRelativeZoomTranslationSpace)
@@ -51,9 +51,9 @@ namespace ONVIF {
             return m_nodeToken;
         }
 
-        QString defaultAbsolutePantTiltPositionSpace() const
+        QString defaultAbsolutePanTiltPositionSpace() const
         {
-            return m_defaultAbsolutePantTiltPositionSpace;
+            return m_defaultAbsolutePanTiltPositionSpace;
         }
 
         QString defaultAbsoluteZoomPositionSpace() const
@@ -172,9 +172,9 @@ namespace ONVIF {
             m_nodeToken = arg;
         }
 
-        void setDefaultAbsolutePantTiltPositionSpace(QString arg)
+        void setDefaultAbsolutePanTiltPositionSpace(QString arg)
         {
-            m_defaultAbsolutePantTiltPositionSpace = arg;
+            m_defaultAbsolutePanTiltPositionSpace = arg;
         }
 
         void setDefaultAbsoluteZoomPositionSpace(QString arg)
@@ -282,7 +282,7 @@ namespace ONVIF {
         QString m_name;
         int m_useCount;
         QString m_nodeToken;
-        QString m_defaultAbsolutePantTiltPositionSpace;
+        QString m_defaultAbsolutePanTiltPositionSpace;
         QString m_defaultAbsoluteZoomPositionSpace;
         QString m_defaultRelativePanTiltTranslationSpace;
         QString m_defaultRelativeZoomTranslationSpace;
